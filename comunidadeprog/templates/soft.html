@@ -1,0 +1,101 @@
+{% extends 'base.html'  %}
+
+{% block body %}
+    <div class="App">
+        <header class="App-header">
+        <img src= "https://s3-alpha-sig.figma.com/img/2c56/00c9/86005f3bc6524633d47654c6865b3fce?Expires=1671408000&Signature=gbjZUHKhdk5vGkaVhjnCTrW0rtFq8L8yfFUL7-~HD8uof~5lhrGZnGHvxN40JF54xUDuOeZZiEvjtxllpeQVqrgR9I8rMzzqaTc4IVEnGKEAwQK87eK3BF0esnY4lN2XzjZnvdK2oBXTUBro0TzcJP0NkZwiiMvlmk638GR9kmTwBI6O5zLz3z9nb80I-26orup6aO-YSN9vbfjls6UhKqHOZgAqDnF6ippu94qmoXRxNq5Q6ylzBe3kypb0c6LghflEZtpR4edP6UrFtSlbE2esOgmPm2a8wKYBfVr91b3wpRnKd~V8iQvqOYPDQoATEvHU25kIhhQOsu6d~Ol72Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" class="App-" alt="logo" />
+        <p class="App-ssum">
+          Quais são as soft skills para desenvolver?
+        </p>
+            <p class="App-ssdois">
+          Softs skills são as habilidades ligadas ao comportamento do colaborador. Ou seja, é a sua capacidade de desenvolver uma 
+          relação positiva com o trabalho e seus colegas, influenciando positivamente o ambiente. A inteligência emocional e o relacionamento
+          interpessoal são exemplos de soft skills.
+
+        </p>
+        </header>
+
+        <div class="dropdown ">
+                          <button class="btn btn-warning dropdown-toggle m-5" type="button" data-toggle="dropdown">Doar Conhecimento
+                          <span class=""></span></button>
+                          <ul class="dropdown-menu">
+                            <li><a href="{{ url_for('cadastroong') }}">Se voluntariando</a></li>
+                            <li><a href="{{ url_for('cadastro') }}">Agendando</a></li>
+                          </ul>
+        </div>
+
+        <div class="App-bodyy">
+
+            <h3>Comunicação eficaz</h3>
+            <p>
+            Essa é a principal aptidão que deve ser desenvolvida, e não apenas no meio profissional.
+            É indispensável ter a capacidade de se fazer entender de maneira clara e eficaz, sempre
+            levando em consideração seu público-alvo.
+            </p>
+
+
+            <h3>Empatia</h3>
+            <p>
+            Essa soft skill também se relaciona diretamente com a comunicação. Ela que vai ajudar a
+            liderar e obter maior dedicação de seus parceiros de equipe.Coloca se no lugar do outro é
+            tratar todos com respeito e educação, principalmente em situações mais difíceis.
+            </p>
+
+
+            <h3>Organização ou planejamento</h3>
+            <p>
+            Fundamental para aumento da eficiência e qualidade do trabalho. Ser um profissional organizado
+            faz com que haja economia de tempo, pois as informações são encontradas de forma mais rápida.
+            </p>
+
+            <h3>Resiliência</h3>
+            <p>A reseliência é necessária, principalmente, em momentos de crise. Entender como superar as
+                adversidades e, muitas vezes, recomeçar, demonstra maturidade e força. Não é uma habilidade
+                fácil de desenvolver, pois é necessário ter passado pela experiência de situações difíceis.
+            </p>
+
+            <h3>Negociação</h3>
+            <p>Buscar atingir objetivos que satisfaçam as duas ou mais partes envolvidas. Para isso, essas
+                partes devem ter um mesmo propósito final, como uma venda, a assinatura de um contrato ou a
+                preenchimento de uma vaga de trabalho.
+            </p>
+
+            <h3>Escrita</h3>
+            <p>Muitas relações de trabalho se dão por e-mails, contratos ou algum tipo de programa de mensagens
+                instantâneas. Saber escrever corretamente é garantir uma boa comunicação e aprimorar sua imagem
+                como colaborador.
+            </p>
+
+            <h3>Colaboração</h3>
+            <p>Trabalhar bem em grupo é essencial para construir um grupo de alto rendimento. É nesse momento que
+                temos várias cabeças pensando juntas para um objetivo em comum, os que faz com que as habilidades
+                de cada um se complementem.
+            </p>
+
+            <h3>Flexibilidade</h3>
+            <p>Cada vez mais o mercado exige que os profissionais saibam se reinventar. Novas demandas surgem a cada
+                dia, tanto para futuros desafios quanto para cargos já em vigência.
+            </p>
+
+            <h3>Visão geral</h3>
+            <p>Ter uma real dimensão do todo, mostra que o profissional está integrado com a dinâmica da empresa, seus
+                objetivos e sua metodologia. Essa é uma ferramenta muito importante na hora de propor mudanças ou criar
+                expectativas, pois causa impacto em toda a estrutura organizacional.
+            </p>
+
+            <h3>Ética</h3>
+            <p>Desenvolvida ao longo da vida, é formada por valores individuais e coletivos. Diferencial bastante importante,
+                principalmente no meio corporativo, que pode gerar situações tensas e competitivas. Em um cenário ideal, é ela
+                que dá a sustentação para que as outras soft skills se desenvolvam.
+            </p>
+            </div>
+            
+            <div class= " App-voluntarioss" >
+            <p >SEJA VOLUNTÁRIO</p>
+            </div>
+
+
+
+    </div>
+
+{% endblock %}

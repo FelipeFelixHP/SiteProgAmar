@@ -1,0 +1,146 @@
+.ImgVL3{
+ position: absolute;
+border-width: 1px;
+width: 600px;
+height: 300px;
+margin-left: 2%;
+left: 35%;
+top: 20%;
+background: white;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.Text1{
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    top: 15%;
+    left: 10%;
+}
+.Text2{
+    position: absolute;
+  width: 400px;
+  height: 100px;
+  top: 22%;
+  left: 12%;
+  font-family: roboto;
+  font-style: normal;
+  font-size: 25px;
+  text-align: Justified;
+  line-height: 28px;
+}
+.Conheça{
+    background-color: #1D3387;
+    position: absolute;
+    height: 40px;
+    right: 7%;
+    width: 250px;
+    top: 80%;
+    border-radius: 80px;
+    font-style: normal;
+    color: white;
+    left: 17%;
+}
+.Dados{
+        position: absolute;
+        top: 108%;
+        left: 13%;
+}
+.ImgVL4{
+position: absolute;
+top: 120%;
+width: 1100px;
+left: 15%;
+}
+.Arts{
+    position: absolute;
+    top: 220%;
+    left: 13%;
+}
+.ContainerArt{
+    Width: 263px;
+    Height: 300px;
+    background-color:#FAFAFA;
+    position: fixed;
+    margin-left: 1185px;
+    margin-top: 70px;
+    border-radius: 10%;
+    cursor: pointer;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    left:-65%;
+    top: 220%;
+    position: absolute;
+}
+.Art1{
+position: absolute;
+top: 60%;
+left: 10%;
+
+}
+.ContainerArt1{
+    Width: 263px;
+    Height: 300px;
+    background-color:#FAFAFA;
+    position: fixed;
+    margin-left: 1185px;
+    margin-top: 70px;
+    border-radius: 10%;
+    cursor: pointer;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    left:-280%;
+    top: -22%;
+    position: absolute;
+}
+.Art2{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.ContainerArt2{
+    Width: 263px;
+    Height: 300px;
+    background-color:#FAFAFA;
+    position: fixed;
+    margin-left: 1185px;
+    margin-top: 70px;
+    border-radius: 10%;
+    cursor: pointer;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    left:-280%;
+    top: -23%;
+    position: absolute;
+}
+.Art3{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.ImgVL5{
+    position: absolute;
+    max-width: 250px;
+    height: 150px;
+    top: -0%;
+    left: -339%;
+    border-radius: 8%;
+}
+.ImgVL6{
+        position: absolute;
+        max-width: 250px;
+        height: 150px;
+        top: 2%;
+        left: 3%;
+        border-radius: 13%;
+}
+.ImgVL7{
+        position: absolute;
+        max-width: 250px;
+        height: 150px;
+        top: 2%;
+        left: -168%;
+        border-radius: 13%;
+}

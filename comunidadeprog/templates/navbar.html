@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>navbar</title>
+</head>
+<body>
+
+    <nav class=" cor-nav navbar navbar-expand-lg navbar-dark  ">
+        <img src='https://s3-alpha-sig.figma.com/img/88e9/12fb/4ab0d7f0fd3e81716269b0b81a9bdcf2?Expires=1672012800&Signature=gJ2aMx-IiB~hp7veR48gFjXTlzbDMLDrIUOITFI8RJ0-oTjI0V6HdC8AHfhF1znww8tv1k~TEHvMQXIiX9GIH5C~Ns~~zTYILWQrQRqi7NjSy4PTeMjuQme7hpjn5HY-peezvNlsbHe2udz7QMucP-fYzdzEKXSeREoh7s-0WrGzrL5K3yg0-bPZG1CpV0mO18B6Zgs6OGXDmEVKY~wnczfU3yowEXKPv4ahysr~xjXyXLeWLK4PEFDMMYH7N-hppyFDWWcTdqdBCCyyWZ~Gh2cOuyynipbUhLdiYlTDCZgDO095Z3saWl~kpGYf65UiXeoV0e5XJkauSwKkcezXfw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4' alt='corrigida' class='imglogo ' ></img>
+      <div class=" container-fluid container ">
+        <a class="navbar-brand  " href="{{ url_for('comunidade') }}"></a>
+        {% if current_user.is_authenticated %}
+        <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+            <li class="nav-item">
+                    <br>
+              <a class="nav-link active" href="{{ url_for('criar_post') }}"><strong>CRIAR POSTE</strong></a>
+            </li>
+             <li class="nav-item">
+                    <br>
+              <a class="nav-link active" href="{{ url_for('soft') }}"><strong>SOFT SKILLS</strong></a>
+            </li>
+             <li class="nav-item">
+                 <br>
+              <a class="nav-link active" href="{{ url_for('doar') }}"><strong>DOAR CONHECIMENTO</strong></a>
+            </li>
+             <li class="nav-item">
+                  <br>
+              <a class="nav-link active" href="{{ url_for('certificado') }}"><strong>GERAR CERTIFICADO</strong></a>
+            </li>
+
+            <li class="nav-item active ">
+                    <br>
+              <a class="nav-link active " href="{{ url_for('perfil') }}"><strong>PERFIL</strong></a>
+            </li>
+            <li class="nav-item">
+                    <br>
+              <a class="nav-link btn-warning rd m-2 p-3" href="{{ url_for('sair') }}"><strong>SAIR</strong></a>
+            </li>
+
+            <li class="nav-item ">
+                     <br>
+              <a class="nav-link active " href="{{ url_for('relatorioong') }}"><strong>RELATÓRIOS ONG</strong></a>
+            </li>
+        </ul>
+
+
+
+        {% else %}
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item  ">
+                 <br>
+              <a class="nav-link active " aria-current="page" href=" {{ url_for('usuarios') }}"><strong>HOME</strong></a>
+            </li>
+            <li class="nav-item">
+                 <br>
+              <a class="nav-link active" href="{{ url_for('inicio') }}"><strong>QUEM SOMOS</strong></a>
+            </li>
+              <li class="nav-item">
+                   <br>
+              <a class="nav-link active" href="{{ url_for('conhecimento') }}"><strong>SOBRE O VOLUNTARIADO</strong></a>
+            </li>
+            <li class="nav-item">
+                 <br>
+              <a class="nav-link active" href="{{ url_for('ong') }}"><strong>ONG'S</strong></a>
+            </li>
+                <li class="nav-item ">
+                     <br>
+              <a class="nav-link active " href="{{ url_for('doar') }}"><strong>DOAR CONHECIMENTO</strong></a>
+            </li>
+
+               </li>
+
+            <li class="nav-item ">
+                 <br>
+
+                      <div class="dropdown ">
+                          <button class="btn btn-warning dropdown-toggle m-2 p-3" type="button" data-toggle="dropdown">CADASTRE-SE
+                          <span class=""></span></button>
+                          <ul class="dropdown-menu">
+                            <li><a href="{{ url_for('cadastroong') }}">cadastrar ong</a></li>
+                            <li><a href="{{ url_for('cadastro') }}">cadastrar voluntario</a></li>
+                          </ul>
+                      </div>
+            </li>
+            <li class="nav-item">
+                 <br>
+                      <div class="dropdown">
+                          <button class="btn btn-warning dropdown-toggle m-2 p-3" type="button" data-toggle="dropdown">LOGIN
+                          <span class=""></span></button>
+                          <ul class="dropdown-menu">
+                            <li><a href="{{ url_for('cadastroong') }}">login ong</a></li>
+                            <li><a href="{{ url_for('login') }}">login voluntario</a></li>
+                          </ul>
+                      </div>
+
+            </li>
+          </ul>
+
+          {% endif %}
+        </div>
+      </div>
+    </nav>
+</body>
+</html>

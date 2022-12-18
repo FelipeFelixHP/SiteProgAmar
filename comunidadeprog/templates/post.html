@@ -1,0 +1,36 @@
+{% extends 'base.html'  %}
+
+{% block body %}
+
+        <div class="container mt-3">
+
+
+            <div class="row border mt-4 p-3 meupost">
+                <div class="col col-3">
+                    <div class="image pe-4">
+                    <img src="{{url_for('static', filename='foto_perfil/{}'.format(post.autor.foto_perfil))}}" class="rounded" width="200" >
+                        <strong>{{ post.autor.nome}}</strong>
+                        <div class="row justify-content-center">
+                        <div class="col ">
+                            <strong>Soft Skills do Voluntario: </strong>
+                            {% for softskills in post.autor.softskills.split(';') %}
+                            <button type="button" class="btn btn-success mt-2" disabled>{{ softskills}}</button>
+                            {% endfor %}
+                        </div>
+
+</div>
+                    </div>
+
+                </div>
+                <div class="col col-9">
+                    <h3>{{ post.título}}</h3>
+                    <p> {{ post.corpo}}</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+{% endblock %}

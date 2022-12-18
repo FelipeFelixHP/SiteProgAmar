@@ -1,0 +1,730 @@
+.Ond{
+position: absolute;
+  width: 459px;
+  height: 88px;
+  left: 185px;
+  top: 100px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 57px;
+  color: #000000;
+  }
+
+  .Inf{
+  position: absolute;
+  width: 435px;
+  height: 64px;
+  left: 184px;
+  top: 200px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: justify;
+  color: #000000;
+  }
+  .Card{
+    box-sizing: border-box;
+  position: absolute;
+  width: 1139px;
+  height: 64px;
+  left: 182px;
+  top: 423px;
+  border: 1px solid #1D3387;
+  border-radius: 20px;
+  }
+  .Buscar{
+    position: absolute;
+  width: 192px;
+  height: 40px;
+  left: 250px;
+  top: 405px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000;
+  }
+
+
+.Carde{
+position: absolute;
+width: 1153px;
+height: 274px;
+left: 175px;
+top: 550px;
+background: #FAFAFA;
+border-radius: 25px;
+border-color: 10px #000000;
+}
+
+.Bca{
+width:245px;
+height:190px;
+border-radius: 50px;
+left: 30px;
+top: 30px;
+position: absolute;
+}
+
+.Do{
+position: absolute;
+width: 340px;
+height: 34px;
+left: 350px;
+top: -2px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 44px;
+color: #000000;
+}
+.Mous{
+position: absolute;
+width: 467.67px;
+height: 104.5px;
+left: 350px;
+top: 70px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: justify;
+color: #000000;
+}
+.Azure{
+box-sizing: border-box;
+position: absolute;
+width: 140px;
+height: 39px;
+left: 456px;
+top: 212px;
+background: #1D3387;
+border: 2px solid #FFFFFF;
+border-radius: 100px;
+margin-left: -80px;
+margin-right: -80px;
+}
+
+.Maw{
+position: absolute;
+left: 413px;
+top: 205px;
+bottom: 38.74%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: #FAFAFA;
+}
+
+
+
+
+
+.Cardy{
+position: absolute;
+ width: 1153px;
+height: 274px;
+left: 7px;
+top: 350px;
+background:  #FAFAFA;
+border-radius: 25px;
+border-color: 10px #000000;
+}
+
+.Beijo{
+width:250px;
+border-radius: 20%;
+left: 3%;
+top: 390px;
+position: absolute;
+}
+
+
+.Duos{
+position: absolute;
+width: 340px;
+height: 34px;
+left: 350px;
+top: 355px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 44px;
+color: #000000;
+}
+.Mouse{
+position: absolute;
+width: 467.67px;
+ height: 104.5px;
+left: 350px;
+top: 420px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: justify;
+color: #000000;
+}
+.Azu{
+box-sizing: border-box;
+position: absolute;
+width: 140px;
+height: 39px;
+left: 456px;
+top: 567px;
+background: #1D3387;
+border: 2px solid #FFFFFF;
+border-radius: 100px;
+margin-left: -80px;
+margin-right: -80px;
+}
+
+
+.Mawe{
+position: absolute;
+left: 412px;
+top: 559px;
+bottom: 38.74%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: #FAFAFA;
+}
+
+
+.Cardes{
+position: absolute;
+width: 1153px;
+height: 274px;
+left: 7px;
+top: 700px;
+background:  #FAFAFA;
+border-radius: 25px;
+border-color: 10px #000000;
+}
+
+.Be{
+position: absolute;
+top: 265%;
+width: 250px;
+left: 4%;
+border-radius: 30px;
+}
+
+.Dois{
+position: absolute;
+width: 340px;
+height: 34px;
+left: 350px;
+top: 700px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 44px;
+color: #000000;
+}
+.M{
+position: absolute;
+width: 467.67px;
+ height: 104.5px;
+left: 350px;
+top: 770px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: justify;
+color: #000000;
+}
+.Azul{
+box-sizing: border-box;
+position: absolute;
+width: 140px;
+height: 39px;
+left: 459px;
+top: 920px;
+background: #1D3387;
+border: 2px solid #FFFFFF;
+border-radius: 100px;
+margin-left: -80px;
+margin-right: -80px;
+}
+
+
+.Mawev{
+position: absolute;
+left: 412px;
+top: 912px;
+bottom: 38.74%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: #FAFAFA;
+}
+
+
+.Lado{
+position: absolute;
+width: 279px;
+height: 272px;
+left: 875px;
+top: 1px;
+border-radius: 6px;
+background: #1D3387;
+}
+
+.Como{
+width: 350;
+position: absolute;
+height: 34px;
+left: 895px;
+top: -44px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color: #FAFAFA;
+}
+
+.Equipe{
+position: absolute;
+width: 160px;
+height: 20px;
+left: 895px;
+top: 90px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FAFAFA;
+}
+
+.Emoji{
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1050px;
+top: 105px;
+}
+
+.Como{
+width: 350;
+position: absolute;
+height: 34px;
+left: 895px;
+top: -44px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color: #FAFAFA;
+}
+
+.Equipe{
+position: absolute;
+width: 160px;
+height: 20px;
+left: 895px;
+top: 90px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FAFAFA;
+}
+.Emojis{
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1050px;
+top: 440px;
+}
+.Dese{
+position: absolute;
+width: 279px;
+height: 272px;
+left: 895px;
+top: 320px;
+font-size: 22px;
+border-radius: 6px;
+color: #FAFAFA;
+font-family: 'Poppins';
+}
+.Trab{
+position: absolute;
+width: 160px;
+height: 20px;
+left: 900px;
+top: 425px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FAFAFA;
+}
+
+.Sol{
+position: absolute;
+width: 279px;
+height: 272px;
+left: 880px;
+top: 350px;
+border-radius: 6px;
+background: #1D3387;
+}
+
+.Lua{
+position: absolute;
+width: 279px;
+height: 272px;
+left: 880px;
+top: 700px;
+border-radius: 6px;
+background: #1D3387;
+}
+.Descemos{
+position: absolute;
+width: 292px;
+height: 34px;
+left: 895px;
+top: 660px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color: #FAFAFA;
+}
+.Trabalho{
+position: absolute;
+width: 160px;
+height: 20px;
+left: 900px;
+top: 780px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FAFAFA;
+}
+
+.Figura{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1050px;
+    top: 799px;
+}
+.Um{
+position: absolute;
+width: 12px;
+height: 26px;
+left: 370px;
+top: 1046px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #FAFAFA;
+}
+.Two{
+position: absolute;
+width: 12px;
+height: 26px;
+left: 418px;
+top: 1046px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #FAFAFA;
+}
+.Tres{
+position: absolute;
+width: 12px;
+height: 26px;
+left: 465px;
+top: 1046px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #FAFAFA;
+}
+.Quatro{
+position: absolute;
+width: 12px;
+height: 26px;
+left: 510px;
+top: 1046px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #FAFAFA;
+}
+.Cinco{
+position: absolute;
+width: 12px;
+height: 26px;
+left: 559px;
+top: 1046px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #FAFAFA;
+}
+
+
+.Seis{
+position: absolute;
+width: 12px;
+height: 26px;
+left: 603px;
+top: 1046px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #FAFAFA;
+}
+
+.Sete{
+position: absolute;
+width: 12px;
+ height: 26px;
+left: 650px;
+top: 1046px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #FAFAFA;
+}
+
+.Oito{
+position: absolute;
+width: 12px;
+height: 26px;
+left: 695px;
+top: 1046px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #FAFAFA;
+}
+
+.Nove{
+position: absolute;
+width: 12px;
+height: 26px;
+left: 745px;
+top: 1046px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #FAFAFA;
+}
+.Dez{
+position: absolute;
+width: 12px;
+height: 26px;
+left: 779px;
+top: 1046px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #FAFAFA;
+}
+
+
+
+.Bloco{
+box-sizing: border-box;
+position: absolute;
+width: 47px;
+height: 42px;
+left: 353px;
+top: 1050px;
+background: #281E96;
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #FAFAFA;
+}
+.Bloco1{
+ box-sizing: border-box;
+position: absolute;
+width: 47px;
+height: 42px;
+left: 494px;
+top: 1050px;
+background: #281E96;
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #FAFAFA;
+}
+
+.Bloco2{
+box-sizing: border-box;
+position: absolute;
+width: 47px;
+height: 42px;
+left: 447px;
+top: 1050px;
+background: #281E96;
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #FAFAFA;
+}
+
+.Bloco3{
+box-sizing: border-box;
+position: absolute;
+width: 47px;
+height: 42px;
+left: 400px;
+top: 1050px;
+background: #281E96;
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #FAFAFA;
+}
+
+.Bloco4{
+box-sizing: border-box;
+position: absolute;
+width: 47px;
+height: 42px;
+left: 540px;
+top: 1050px;
+background: #281E96;
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #FAFAFA;
+}
+
+.Bloco5{
+box-sizing: border-box;
+position: absolute;
+width: 47px;
+height: 42px;
+left: 587px;
+top: 1050px;
+background: #281E96;
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #FAFAFA;
+}
+
+.Bloco6{
+box-sizing: border-box;
+position: absolute;
+width: 47px;
+height: 42px;
+left: 633px;
+top: 1050px;
+background: #281E96;
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #FAFAFA;
+}
+
+.Bloco7{
+box-sizing: border-box;
+position: absolute;
+width: 47px;
+height: 42px;
+left: 680px;
+top: 1050px;
+background: #281E96;
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #FAFAFA;
+}
+
+.Bloco8{
+box-sizing: border-box;
+position: absolute;
+width: 47px;
+height: 42px;
+left: 727px;
+top: 1050px;
+background: #281E96;
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #FAFAFA;
+}
+.Bloco9{
+box-sizing: border-box;
+position: absolute;
+width: 47px;
+height: 42px;
+left: 773px;
+top: 1050px;
+background: #281E96;
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #FAFAFA;
+}
+.Vazio{
+position: absolute;
+width: 1600px;
+height: 158px;
+left: px;
+top: 1700px;
+background: #1D3387;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

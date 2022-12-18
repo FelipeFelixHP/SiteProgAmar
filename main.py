@@ -1,18 +1,9 @@
-from flask import Flask, render_template
+from comunidadeprog import app
+from comunidadeprog import database
 
-
-app = Flask(__name__)
-
-
-@app.route('/')
-def hello():
-    return render_template("home.html")
-
-
-@app.route('/contato')
-def contato():
-    return render_template("contato.html")
-
+@app.before_first_request
+def create_tables():
+    database.create_all()
 
 if __name__ == '__main__':
     app.run(debug=True)

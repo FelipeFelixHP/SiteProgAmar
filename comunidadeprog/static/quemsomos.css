@@ -1,0 +1,142 @@
+.qs{
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    top: 25%;
+    left: 45%;
+}
+
+
+.ImgVL{
+    position: absolute;
+    width: 350px;
+
+
+    margin-left: 2%;
+    max-width: 350px;
+    left: 200px;
+    top: 20%;
+    }
+    .TextQ{
+      position: absolute;
+      font-weight: bold;
+      font-size: 40px;
+      top: 10%;
+      left: 45%;
+    }
+    .TextIn{
+      position: absolute;
+      width: 543px;
+      height: 125px;
+      top: 250px;
+      left: 45%;
+      font-family: poppins;
+      font-style: normal;
+      font-size: 25px;
+      text-align: Justified;
+      line-height: 30px;
+    }
+    .Container1{
+            width: 1280px;
+            height: 400px;
+            background-color:#0014610F;
+            position: fixed;
+            margin-left: 1185px;
+            margin-top: 70px;
+            border-radius: 1%;
+            cursor: pointer;
+            border-color: gray;
+            border-width: 1px;
+            border-style: solid;
+            left: -68%;
+            top: 65%;
+            position: absolute;
+    }
+    .TextMis{
+      position: absolute;
+      font-weight: bold;
+      font-size: 40px;
+      top: 75%;
+      left: 20%;
+    }
+    .TextMis1{
+      position: absolute;
+      width: 252px;
+      height: 210px;
+      top: 89%;
+      left: 20%;
+      font-family: poppins;
+      font-style: normal;
+      size: 24px;
+      text-align: Justified;
+      line-height: 30px;
+      color: #000000;
+    }
+    .TextVi{
+      position: absolute;
+      font-weight: bold;
+      font-size: 40px;
+      top: 74%;
+      left: 47%;
+    }
+    .TextVis{
+      position: absolute;
+      width: 252px;
+      height: 210px;
+      top: 89%;
+      left: 47%;
+      font-family: poppins;
+      font-style: normal;
+      size: 24px;
+      text-align: Justified;
+      line-height: 29px;
+      color: #000000;
+    }
+    .TextVal{
+      position: absolute;
+      font-weight: bold;
+      font-size: 40px;
+      top: 74%;
+      left: 70%;
+    }
+    .TextVal1{
+      position: absolute;
+      width: 252px;
+      height: 210px;
+      top: 89%;
+      left: 70%;
+      font-family: poppins;
+      font-style: normal;
+      size: 24px;
+      text-align: Justified;
+      line-height: 29px;
+      color: #000000;
+    }
+    .Oque{
+      position: absolute;
+      font-weight: bold;
+      font-size: 25px;
+      top: 155%;
+      left: 10%;
+      }
+      .ImgVL1{
+        position: absolute;
+        width: 337px;
+        height: 187px;
+        top: 170%;
+        left: 10%;
+      }
+      .ImgVL2{
+        position: absolute;
+        width: 337px;
+        height: 187px;
+        top: 170%;
+        left: 40%;
+      }
+      .ImgVL33{
+        position: absolute;
+        width: 337px;
+        height: 187px;
+        top: 170%;
+        left: 68%;
+      }

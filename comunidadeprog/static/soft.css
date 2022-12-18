@@ -1,0 +1,73 @@
+.App {
+  text-align: left;
+}
+
+.App-imgss {
+  pointer-events: none;
+  position:relative;
+  margin: 10px;
+  width: 90%;
+  height: 194px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.32));
+  opacity: 50%;
+}
+
+.App-ssum {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  background:rgb(156, 156, 156);
+	display: inline;
+	padding: 0px 0 !important;
+}
+
+.App-ssdois {
+  position: absolute;
+  top: 115px;
+  left: 50px;
+  right: 50px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0px 0px 5px gray;
+	background:rgb(156, 156, 156);
+	display: inline;
+	padding: 0px 0 !important;
+  justify-content: right;
+  align-items: right;
+}
+
+
+.App-bodyy {
+column-count: 2;
+-webkit-column-count: 2;
+-webkit-column-gap: 80px;
+column-gap: normal;
+width: 90%;
+margin: 5%;
+position: relative;
+background: #FAFAFA;
+}
+
+.App-voluntarioss {
+
+box-sizing: border-box;
+width: 200px;
+height: 36px;
+position: relative;
+top:200px;
+left:1%;
+transform: translate(-50%, -50%);
+font: center;
+background: #1D3387;
+border: 1px solid #1734A6;
+border-radius: 50px;
+font-family: 'Popins';
+color: #FAFAFA;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer
+}

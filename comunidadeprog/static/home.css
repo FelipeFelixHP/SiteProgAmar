@@ -1,0 +1,411 @@
+.usu{
+    margin: 10%;
+    font-weight: bold;
+    top: 110%;
+    left: 15%;
+    color: black;
+}
+.Login{
+    background-color: #1D3387;
+    position: absolute;
+    height: 40px;
+    right: 7%;
+    width: 120px;
+    top: 4%;
+    border-radius: 80px;
+}
+.Login1{
+    color: white;
+    position: absolute;
+    right: 9%;
+    top: 19px;
+    font-family: poppins;
+}
+.Lingua{
+    color: #FFFFFF;
+    position: absolute;
+    right: 2%;
+    top: -2%;
+    font-family: arial Narrow;
+}
+.Doar{
+    color: white;
+    position: absolute;
+    left: 56%;
+    top: 3%;
+    font-family: poppins;
+}
+.ImgIni{
+    max-width: 986px;
+    position: absolute;
+    height: 547px;
+    right: 5%;
+    top: 20%;
+    background-image: white;
+}
+.InicioText{
+    font-weight: bold;
+    position: absolute;
+    top: 38%;
+   left: 10%;
+}
+.InicioText1{
+    position: absolute;
+    font-family: Arial Narrow;
+    top: 50%;
+    font-size: 30px;
+    left: 10%;
+}
+.contText{
+    position: absolute;
+    font-weight: bold;
+    top: 44%;
+    left: 10%;
+}
+.Sejavl{
+    position: absolute;
+    top: 62%;
+    height: 40px;
+    width: 190px;
+    border-radius: 80px;
+    background-color: #1D3387;
+    left: 12%;
+}
+.SejaText{
+    position: absolute;
+    top: 415px;
+    color: white;
+    font-size: 15px;
+    left: 14%;
+
+}
+
+.FtNot{
+
+    font-weight: bold;
+    top: 110%;
+    left: 15%;
+    color: black;
+
+}
+.ImgVL0{
+        position: absolute;
+        width: 40%;
+        border-radius: 15px;
+        border-color:rgb(0, 0, 0);
+        border-width: 1px;
+        border-style: solid;
+        margin-left: 5%;
+        max-width: 350px;
+        left: 70px;
+        top: 128%;
+}
+.ContainerTopicos{
+        width: 400px;
+        height: 460px;
+        background-color:#FAFAFA;
+        position: fixed;
+        margin-left: 1185px;
+        margin-top: 70px;
+        border-radius: 3%;
+        cursor: pointer;
+        border-color: gray;
+        border-width: 1px;
+        border-style: solid;
+        left: -70%;
+        top: 115%;
+        position: absolute;
+  }
+  .TextNot{
+    font-weight: bold;
+    position: absolute;
+    top: 160%;
+    left: 10%;
+    font-size: 15px;
+  }
+  .TextCont1{
+    font-weight: bold;
+    position: absolute;
+    top: 163%;
+    left: 10%;
+    font-size: 15px;
+  }
+  .TextNot1{
+      position: absolute;
+      top: 166%;
+      font-family:poppins;
+     font-weight: 300;
+     font-size: 16px;
+     left: 10%;
+ }
+ .TextCont2{
+    position: absolute;
+    top: 169%;
+    font-family:poppins;
+   font-weight: 300;
+   font-size: 16px;
+   left: 10%;
+ }
+ .Saiba{
+     text-decoration: none;
+     text-decoration: underline;
+     position: absolute;
+     top: 169%;
+     font-family:poppins;
+    font-weight: 300;
+    font-size: 16px;
+    left: 26%;
+    color: rgb(12, 12, 248);
+ }
+ .BotaoSeja{
+    background-color: #1D3387;
+    position: absolute;
+    height: 35px;
+    left: 10%;
+    right: 7%;
+    width: 150px;
+    top: 178%;
+    border-radius: 80px;
+ }
+ .Seja{
+    position: absolute;
+    top: 177%;
+    color: white;
+    font-size: 15px;
+    left: 161px;
+ }
+ .BotaoSeja1{
+    background-color: #1D3387;
+    position: absolute;
+    height: 35px;
+    left: 21%;
+    right: 7%;
+    width: 175px;
+    top: 178%;
+    border-radius: 80px;
+ }
+ .Seja1{
+    position: absolute;
+    top: 177%;
+    color: white;
+    font-size: 15px;
+    left: 334px;
+ }
+ .ContainerTopicos1{
+        width: 400px;
+        height: 460px;
+        background-color:#FAFAFA;
+        position: fixed;
+        margin-left: 1185px;
+        margin-top: 70px;
+        border-radius: 3%;
+        cursor: pointer;
+        border-color: gray;
+        border-width: 1px;
+        border-style: solid;
+        left: -42%;
+        top: 115%;
+        position: absolute;
+ }
+ .ImgVL11{
+    position: absolute;
+    width: 40%;
+    border-radius: 15px;
+    border-color:rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 5%;
+    max-width: 350px;
+    left: 495px;
+    top: 128%;
+ }
+ .TextNot0{
+    font-weight: bold;
+    position: absolute;
+    top: 160%;
+    left: 38%;
+    font-size: 15px;
+ }
+ .TextCont0{
+    font-weight: bold;
+    position: absolute;
+    top: 163%;
+    left: 38%;
+    font-size: 15px;
+ }
+ .TextNot01{
+    position: absolute;
+    top: 166%;
+    font-family:poppins;
+   font-weight: 300;
+   font-size: 16px;
+   left: 38%;
+ }
+ .TextCont01{
+    position: absolute;
+    top: 169%;
+    font-family:poppins;
+   font-weight: 300;
+   font-size: 16px;
+   left: 38%;
+ }
+ .Saiba0{
+    text-decoration: none;
+    text-decoration: underline;
+    position: absolute;
+    top: 169%;
+    font-family:poppins;
+   font-weight: 300;
+   font-size: 16px;
+   left: 54%;
+   color: rgb(12, 12, 248);
+ }
+ .BotaoSeja0{
+    background-color: #1D3387;
+    position: absolute;
+    height: 35px;
+    left: 38%;
+    right: 7%;
+    width: 150px;
+    top: 178%;
+    border-radius: 80px;
+ }
+ .Seja0{
+    position: absolute;
+    top: 177%;
+    color: white;
+    font-size: 15px;
+    left: 586px;
+ }
+ .BotaoSeja01{
+    background-color: #1D3387;
+    position: absolute;
+    height: 35px;
+    left: 49%;
+    right: 7%;
+    width: 175px;
+    top: 178%;
+    border-radius: 80px;
+ }
+ .Seja01{
+    position: absolute;
+    top: 177%;
+    color: white;
+    font-size: 15px;
+    left: 756px;
+ }
+ .ContainerTopicos2{
+    width: 400px;
+    height: 460px;
+    background-color:#FAFAFA;
+    position: fixed;
+    margin-left: 1185px;
+    margin-top: 70px;
+    border-radius: 3%;
+    cursor: pointer;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    left: 14%;
+    top: 100%;
+    position: absolute;
+}
+.ImgVL22{
+    position: absolute;
+    width: 40%;
+    border-radius: 15px;
+    border-color:rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 5%;
+    max-width: 350px;
+    left: 919px;
+    top: 128%;
+}
+.TextNot001{
+    font-weight: bold;
+    position: absolute;
+    top: 160%;
+    left: 66%;
+    font-size: 15px;
+}
+.TextCont001{
+    font-weight: bold;
+    position: absolute;
+    top: 163%;
+    left: 66%;
+    font-size: 15px;
+}
+.TextNot002{
+    position: absolute;
+    top: 166%;
+    font-family:poppins;
+   font-weight: 300;
+   font-size: 16px;
+   left: 66%;
+}
+.TextCont002{
+    position: absolute;
+    top: 169%;
+    font-family:poppins;
+   font-weight: 300;
+   font-size: 16px;
+   left: 66%;
+}
+.Saiba001{
+    text-decoration: none;
+    text-decoration: underline;
+    position: absolute;
+    top: 169%;
+    font-family:poppins;
+   font-weight: 300;
+   font-size: 16px;
+   left: 82%;
+   color: rgb(12, 12, 248);
+}
+.BotaoSeja001{
+    background-color: #1D3387;
+    position: absolute;
+    height: 35px;
+    left: 66%;
+    right: 7%;
+    width: 150px;
+    top: 178%;
+    border-radius: 80px;
+}
+.Seja001{
+    position: absolute;
+    top: 177%;
+    color: white;
+    font-size: 15px;
+    left: 1010px;
+
+}
+.BotaoSeja002{
+    background-color: #1D3387;
+    position: absolute;
+    height: 35px;
+    left: 77%;
+    right: 7%;
+    width: 175px;
+    top: 178%;
+    border-radius: 80px;
+}
+.Seja002{
+    position: absolute;
+    top: 177%;
+    color: white;
+    font-size: 15px;
+    left: 1181px;
+}
+.Seta{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+
+}
+.Seta1{
+    position: absolute;
+    top: 50%;
+    width: 195%;
+}

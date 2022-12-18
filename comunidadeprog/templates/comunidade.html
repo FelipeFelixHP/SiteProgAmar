@@ -1,0 +1,49 @@
+{% extends 'base.html'  %}
+
+{% block body %}
+
+        <div class="container mt-3">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 style="color: orange">Comunidade ProgAmar - Seja Um Voluntario</h1>
+
+            <h2> Compartilhe como foi sua experiencia e Seja mais um dos nossos Voluntarios </h2>
+            <hr>
+            {% for post in posts%}
+            <div class="row border mt-4 p-3 meupost">
+                <div class="col col-3">
+                    <div class="image pe-4">
+                    <img src="{{url_for('static', filename='foto_perfil/{}'.format(post.autor.foto_perfil))}}" class="rounded" width="200" >
+                    <hr>
+                        <strong>{{ post.autor.nome}}</strong>
+                        <div class="row justify-content-center">
+                        <div class="col ">
+                            <hr>
+                            <strong>Soft Skills do Voluntario: </strong>
+
+                            {% for softskills in post.autor.softskills.split(';') %}
+                            <button type="button" class="btn btn-primary mt-2" disabled>{{ softskills}}</button>
+                            {% endfor %}
+                        </div>
+
+</div>
+                    </div>
+
+                </div>
+                <div class="col col-9">
+                    <h3>{{ post.título}}</h3>
+                    <p> {{ post.corpo}}</p>
+                </div>
+
+            </div>
+
+
+            {% endfor%}
+        </div>
+
+
+
+
+{% endblock %}

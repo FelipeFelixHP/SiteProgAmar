@@ -1,0 +1,49 @@
+.App-botaocert {
+  box-sizing: border-box;
+  width: 200px;
+  height: 36px;
+  position: relative;
+  top:5%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font: center;
+  background: #1D3387;
+  border: 1px solid #1734A6;
+  border-radius: 50px;
+  font-family: 'Popins';
+  color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-boxx {
+  box-sizing: border-box;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 950px;
+  top: 140px;
+  background: #E6E6E6;
+  border: 1px solid #1D3387;
+  border-radius: 20px;
+
+}
+
+.App-textforms {
+  position: relative;
+  left: 10px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.certificado{
+     position: relative;
+     left: 50px;
+}
+.cert{
+    position: relative;
+    left: 50px;
+}

@@ -1,0 +1,71 @@
+
+.card{
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+
+  background-color: #fff;
+}
+
+
+
+.stats{
+
+      background: #f2f5f8 !important;
+
+    color: #000 !important;
+}
+.articles{
+  font-size:10px;
+  color: #a1aab9;
+}
+.number1{
+  font-weight:500;
+}
+.followers{
+    font-size:10px;
+  color: #a1aab9;
+
+}
+.number2{
+  font-weight:500;
+}
+.rating{
+    font-size:10px;
+  color: #a1aab9;
+}
+.number3{
+  font-weight:500;
+}
+
+.meupost{
+    background: #f2f5f8 !important;
+}
+
+.usuariomeu{
+    background: #f2f5f8 !important;
+    -webkit-column-count: 2;
+}
+
+.cor-nav{
+    position: absolute;
+    width: 1536px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #1D3387;'
+}
+.rd{
+    border-radius: 10px;
+
+}
+.imglogo{
+    width: 129px;
+    height: 122px;
+    left: 10px;
+    margin: 10%
+}
+.input{
+      border: 1px solid #1D3387;
+      border-radius: 20px;
+}
