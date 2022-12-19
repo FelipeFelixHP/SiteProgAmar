@@ -7,7 +7,9 @@
             <div class="col">
                 <form method="post" action="" class="border p-4 mt-2 " enctype="multipart/form-data" >
                     {{ form.csrf_token}}
+
                     <Legend>Editar Perfil</Legend><hr>
+                    {{ form.botao_submit_editarperfil(class="btn btn-primary mt-2") }} <hr>
                     <fieldset>
                          <div class="form-group">
                             {{ form.nome.label(class="form-control-label") }}
@@ -48,10 +50,10 @@
                                 {% endfor %}
                             {% endif %}
                             <hr>
-                            <p> SOFT SKILLS</p>
+                            <p > SOFT SKILLS</p>
                             {% for campo in form %}
                                 {% if 'softskills_' in campo.name %}
-                                   <div class="form-group">
+                                   <div class="form-group ">
                                     {{ campo(class="form-check-input")}}
                                     {{ campo.label(class="form-check-label") }}
 
@@ -64,7 +66,7 @@
 
 
                     </fieldset>
-                    {{ form.botao_submit_editarperfil(class="btn btn-primary mt-2") }}
+
 
                 </form>
 

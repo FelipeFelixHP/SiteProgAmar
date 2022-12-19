@@ -17,6 +17,46 @@
             Lindomar Batista
           </p>
         </header>
+        
+         <div class="App-forms">
+
+                <h1 class="App-titleforms">Doar conhecimento</h1>
+                <form onSubmit={CadastroUsuario}>
+                    <div class="App-textforms">
+                        <p> Qual o conhecimento?</p>
+                        <input type= "text" 
+                        placeholder="Ex: informática, inglês...">
+
+                    </div>
+        
+                    <div class="App-textforms">
+                        <p>Certificação/comporvação do conhecimento</p>
+                        <input type="text" 
+                        placeholder="Anexe seu certificado">
+                    </div>
+        
+                    <div class="App-textforms">
+                        <p>Descreva seu conhecimento e como pretende passá-lo adiante</p>
+                        <input type="text">
+                    </div>
+        
+                    <div class="App-textforms">
+                        <p>Escolha uma data</p>
+                        <input type="text" 
+                        placeholder="DD/MM/AAAA">
+                    </div>
+        
+                    <div class="App-textforms">
+                        <button onClick={CadastroUsuario}>Enviar</button>
+                    </div> 
+                </form>
+                
+                <h1 class="App-textforms">Esta aula ocorrerá por meio da plataforma abaixo:</h1>
+                <img src= "https://upload.wikimedia.org/wikipedia/commons/2/24/Google_Hangouts_Meet_icon_%282017-2020%29.png" class="App-iconmeet" alt="logo" />
+        
+            </div>
+        
+        
       </div>
 
 {% endblock %}

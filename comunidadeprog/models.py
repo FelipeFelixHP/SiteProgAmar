@@ -17,6 +17,9 @@ class Usuario(database.Model, UserMixin):
     posts = database.relationship('Post_usuario', backref='autor', lazy=True)
     softskills =database.Column(database.String, nullable=False, default='Não Informado')
 
+    def contar_v(self):
+        return len(self.posts)
+
 class Post_usuario(database.Model):
     id = database.Column(database.Integer, primary_key=True)
     título = database.Column(database.String, nullable=False)
