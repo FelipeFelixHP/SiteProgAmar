@@ -15,7 +15,7 @@ with app.app_context():
     post_teste = Post_usuario.query.first()
     print((post_teste))
     print(post_teste.título)
-
+    print(post_teste.corpo)
 
 
 

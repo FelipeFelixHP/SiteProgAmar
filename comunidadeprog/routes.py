@@ -7,7 +7,7 @@ import secrets
 import os
 from PIL import Image
 
-@app.route('/home')
+@app.route('/')
 def inicio():
     return render_template("home.html")
 
@@ -44,7 +44,7 @@ def ong():
 def saibamais():
     return render_template("saibamais.html")
 
-@app.route('/teste')
+@app.route('/voluntario')
 def conhecimento():
     return render_template("contato.html")
 
